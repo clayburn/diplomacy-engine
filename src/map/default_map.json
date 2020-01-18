@@ -454,6 +454,36 @@
       "a": "MAO",
       "b": "Spain",
       "coastal_direction": "North"
+    },
+    {
+      "a": "LYO",
+      "b": "Spain",
+      "coastal_direction": "South"
+    },
+    {
+      "a": "WES",
+      "b": "Spain",
+      "coastal_direction": "South"
+    },
+    {
+      "a": "BOT",
+      "b": "Stp",
+      "coastal_direction": "South"
+    },
+    {
+      "a": "BAR",
+      "b": "Stp",
+      "coastal_direction": "North"
+    },
+    {
+      "a": "BAL",
+      "b": "Bul",
+      "coastal_direction": "East"
+    },
+    {
+      "a": "AEG",
+      "b": "Bul",
+      "coastal_direction": "South"
     }
   ]
 }
