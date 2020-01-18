@@ -1,35 +1,436 @@
 {
   "nations": [
-    "England",
-    "France",
-    "Germany",
-    "Italy",
-    "Russia",
-    "Austria",
-    "Turkey"
+    {
+      "name": "England"
+    },
+    {
+      "name": "France"
+    },
+    {
+      "name": "Germany"
+    },
+    {
+      "name": "Italy"
+    },
+    {
+      "name": "Russia"
+    },
+    {
+      "name": "Austria"
+    },
+    {
+      "name": "Turkey"
+    }
   ],
   "spaces": [
     {
-      "long_name": "Brest",
-      "short_name": "Bre",
-      "space_type": "land",
-      "supply_center": "France"
+      "long_name": "Liverpool",
+      "short_name": "Lvp",
+      "space_type": "Land",
+      "supply_center": "England"
+    },
+    {
+      "long_name": "Edinburgh",
+      "short_name": "Edi",
+      "space_type": "Land",
+      "supply_center": "England"
+    },
+    {
+      "long_name": "London",
+      "short_name": "Lon",
+      "space_type": "Land",
+      "supply_center": "England"
+    },
+    {
+      "long_name": "Yorkshire",
+      "short_name": "Yor",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Clyde",
+      "short_name": "Cly",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Wales",
+      "short_name": "Wal",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Tunis",
+      "short_name": "Tun",
+      "space_type": "Land",
+      "supply_center": "Neutral"
+    },
+    {
+      "long_name": "North Africa",
+      "short_name": "Naf",
+      "space_type": "Land"
     },
     {
       "long_name": "Spain",
       "short_name": "Spa",
-      "space_type": "land",
+      "space_type": "Land",
       "supply_center": "Neutral"
+    },
+    {
+      "long_name": "Portugal",
+      "short_name": "Por",
+      "space_type": "Land",
+      "supply_center": "Neutral"
+    },
+    {
+      "long_name": "Brest",
+      "short_name": "Bre",
+      "space_type": "Land",
+      "supply_center": "France"
     },
     {
       "long_name": "Gascony",
       "short_name": "Gas",
-      "space_type": "land"
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Picardy",
+      "short_name": "Pic",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Paris",
+      "short_name": "Par",
+      "space_type": "Land",
+      "supply_center": "France"
+    },
+    {
+      "long_name": "Burgundy",
+      "short_name": "Bur",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Marseilles",
+      "short_name": "Mar",
+      "space_type": "Land",
+      "supply_center": "France"
+    },
+    {
+      "long_name": "Belgium",
+      "short_name": "Bel",
+      "space_type": "Land",
+      "supply_center": "Neutral"
+    },
+    {
+      "long_name": "Piedmont",
+      "short_name": "Pie",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Tuscany",
+      "short_name": "Tus",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Venice",
+      "short_name": "Ven",
+      "space_type": "Land",
+      "supply_center": "Italy"
+    },
+    {
+      "long_name": "Apulia",
+      "short_name": "Apu",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Rome",
+      "short_name": "Rom",
+      "space_type": "Land",
+      "supply_center": "Italy"
+    },
+    {
+      "long_name": "Naples",
+      "short_name": "Nap",
+      "space_type": "Land",
+      "supply_center": "Italy"
+    },
+    {
+      "long_name": "Holland",
+      "short_name": "Hol",
+      "space_type": "Land",
+      "supply_center": "Neutral"
+    },
+    {
+      "long_name": "Ruhr",
+      "short_name": "Ruh",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Munich",
+      "short_name": "Mun",
+      "space_type": "Land",
+      "supply_center": "Germany"
+    },
+    {
+      "long_name": "Tyrolia",
+      "short_name": "Mun",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Kiel",
+      "short_name": "Kie",
+      "space_type": "Land",
+      "supply_center": "Germany"
+    },
+    {
+      "long_name": "Berlin",
+      "short_name": "Ber",
+      "space_type": "Land",
+      "supply_center": "Germany"
+    },
+    {
+      "long_name": "Bohemia",
+      "short_name": "Boh",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Denmark",
+      "short_name": "Den",
+      "space_type": "Land",
+      "supply_center": "Neutral"
+    },
+    {
+      "long_name": "Norway",
+      "short_name": "Nwy",
+      "space_type": "Land",
+      "supply_center": "Neutral"
+    },
+    {
+      "long_name": "Sweden",
+      "short_name": "Swe",
+      "space_type": "Land",
+      "supply_center": "Neutral"
+    },
+    {
+      "long_name": "Finland",
+      "short_name": "Fin",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "St. Petersburg",
+      "short_name": "Stp",
+      "space_type": "Land",
+      "supply_center": "Russia"
+    },
+    {
+      "long_name": "Moscow",
+      "short_name": "Mos",
+      "space_type": "Land",
+      "supply_center": "Russia"
+    },
+    {
+      "long_name": "Livonia",
+      "short_name": "Lvn",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Prussia",
+      "short_name": "Pru",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Silesia",
+      "short_name": "Sil",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Warsaw",
+      "short_name": "War",
+      "space_type": "Land",
+      "supply_center": "Russia"
+    },
+    {
+      "long_name": "Ukraine",
+      "short_name": "Ukr",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Galicia",
+      "short_name": "Gal",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Sevastopol",
+      "short_name": "Sev",
+      "space_type": "Land",
+      "supply_center": "Russia"
+    },
+    {
+      "long_name": "Rumania",
+      "short_name": "Rum",
+      "space_type": "Land",
+      "supply_center": "Neutral"
+    },
+    {
+      "long_name": "Vienna",
+      "short_name": "Vie",
+      "space_type": "Land",
+      "supply_center": "Austria"
+    },
+    {
+      "long_name": "Budapest",
+      "short_name": "Bud",
+      "space_type": "Land",
+      "supply_center": "Austria"
+    },
+    {
+      "long_name": "Trieste",
+      "short_name": "Tri",
+      "space_type": "Land",
+      "supply_center": "Austria"
+    },
+    {
+      "long_name": "Serbia",
+      "short_name": "Ser",
+      "space_type": "Land",
+      "supply_center": "Neutral"
+    },
+    {
+      "long_name": "Bulgaria",
+      "short_name": "Bul",
+      "space_type": "Land",
+      "supply_center": "Neutral"
+    },
+    {
+      "long_name": "Greece",
+      "short_name": "Gre",
+      "space_type": "Land",
+      "supply_center": "Neutral"
+    },
+    {
+      "long_name": "Albania",
+      "short_name": "Alb",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Constantinople",
+      "short_name": "Con",
+      "space_type": "Land",
+      "supply_center": "Turkey"
+    },
+    {
+      "long_name": "Smyrna",
+      "short_name": "Smy",
+      "space_type": "Land",
+      "supply_center": "Turkey"
+    },
+    {
+      "long_name": "Ankara",
+      "short_name": "Ank",
+      "space_type": "Land",
+      "supply_center": "Turkey"
+    },
+    {
+      "long_name": "Armenia",
+      "short_name": "Arm",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Syria",
+      "short_name": "Syr",
+      "space_type": "Land"
+    },
+    {
+      "long_name": "Barents Sea",
+      "short_name": "BAR",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Gulf of Bothnia",
+      "short_name": "BOT",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Baltic Sea",
+      "short_name": "BAL",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Skagerrak",
+      "short_name": "SKA",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Helgoland Bight",
+      "short_name": "HEL",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "North Sea",
+      "short_name": "NTH",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Norwegian Sea",
+      "short_name": "NWG",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "North Atlantic Ocean",
+      "short_name": "NAO",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Irish Sea",
+      "short_name": "IRI",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "English Channel",
+      "short_name": "ENG",
+      "space_type": "Water"
     },
     {
       "long_name": "Mid-Atlantic Ocean",
       "short_name": "MAO",
-      "space_type": "water"
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Western Mediterranean",
+      "short_name": "WES",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Gulf of Lyon",
+      "short_name": "LYO",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Tyrrhenian Sea",
+      "short_name": "TYS",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Ionian Sea",
+      "short_name": "ION",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Adriatic Sea",
+      "short_name": "ADR",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Aegean Sea",
+      "short_name": "AEG",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Eastern Mediterranean",
+      "short_name": "EAS",
+      "space_type": "Water"
+    },
+    {
+      "long_name": "Black Sea",
+      "short_name": "BLA",
+      "space_type": "Water"
     }
   ],
   "connections": [
@@ -52,7 +453,7 @@
     {
       "a": "MAO",
       "b": "Spain",
-      "coastal_direction": "north"
+      "coastal_direction": "North"
     }
   ]
 }
