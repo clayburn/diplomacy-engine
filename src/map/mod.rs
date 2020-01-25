@@ -3,11 +3,24 @@ use serde::{Deserialize};
 #[derive(Deserialize, Debug, PartialEq)]
 pub struct Map {
     pub nations: Vec<Nation>,
+    pub spaces: Vec<Space>,
 }
 
 #[derive(Deserialize, Debug, PartialEq)]
 pub struct Nation {
     pub name: String,
+}
+
+#[derive(Deserialize, Debug, PartialEq)]
+pub struct Space {
+    pub long_name: String,
+    pub short_name: String,
+    pub space_type: SpaceType,
+}
+
+#[derive(Deserialize, Debug, PartialEq)]
+pub enum SpaceType {
+    Land, Water,
 }
 
 impl Map {
