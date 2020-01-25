@@ -16,6 +16,12 @@ pub struct Space {
     pub long_name: String,
     pub short_name: String,
     pub space_type: SpaceType,
+    pub supply_center: Option<SupplyCenter>
+}
+
+#[derive(Deserialize, Debug, PartialEq)]
+pub struct SupplyCenter {
+    pub nation: Option<String>,
 }
 
 #[derive(Deserialize, Debug, PartialEq)]
