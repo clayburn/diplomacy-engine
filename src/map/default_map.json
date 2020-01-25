@@ -27,19 +27,25 @@
       "long_name": "Liverpool",
       "short_name": "Lvp",
       "space_type": "Land",
-      "supply_center": "England"
+      "supply_center": {
+        "nation": "England"
+      }
     },
     {
       "long_name": "Edinburgh",
       "short_name": "Edi",
       "space_type": "Land",
-      "supply_center": "England"
+      "supply_center": {
+        "nation": "England"
+      }
     },
     {
       "long_name": "London",
       "short_name": "Lon",
       "space_type": "Land",
-      "supply_center": "England"
+      "supply_center": {
+        "nation": "England"
+      }
     },
     {
       "long_name": "Yorkshire",
@@ -60,7 +66,7 @@
       "long_name": "Tunis",
       "short_name": "Tun",
       "space_type": "Land",
-      "supply_center": "Neutral"
+      "supply_center": {}
     },
     {
       "long_name": "North Africa",
@@ -71,19 +77,21 @@
       "long_name": "Spain",
       "short_name": "Spa",
       "space_type": "Land",
-      "supply_center": "Neutral"
+      "supply_center": {}
     },
     {
       "long_name": "Portugal",
       "short_name": "Por",
       "space_type": "Land",
-      "supply_center": "Neutral"
+      "supply_center": {}
     },
     {
       "long_name": "Brest",
       "short_name": "Bre",
       "space_type": "Land",
-      "supply_center": "France"
+      "supply_center": {
+        "nation": "France"
+      }
     },
     {
       "long_name": "Gascony",
@@ -99,7 +107,9 @@
       "long_name": "Paris",
       "short_name": "Par",
       "space_type": "Land",
-      "supply_center": "France"
+      "supply_center": {
+        "nation": "France"
+      }
     },
     {
       "long_name": "Burgundy",
@@ -110,13 +120,15 @@
       "long_name": "Marseilles",
       "short_name": "Mar",
       "space_type": "Land",
-      "supply_center": "France"
+      "supply_center": {
+        "nation": "France"
+      }
     },
     {
       "long_name": "Belgium",
       "short_name": "Bel",
       "space_type": "Land",
-      "supply_center": "Neutral"
+      "supply_center": {}
     },
     {
       "long_name": "Piedmont",
@@ -132,7 +144,9 @@
       "long_name": "Venice",
       "short_name": "Ven",
       "space_type": "Land",
-      "supply_center": "Italy"
+      "supply_center": {
+        "nation": "Italy"
+      }
     },
     {
       "long_name": "Apulia",
@@ -143,19 +157,23 @@
       "long_name": "Rome",
       "short_name": "Rom",
       "space_type": "Land",
-      "supply_center": "Italy"
+      "supply_center": {
+        "nation": "Italy"
+      }
     },
     {
       "long_name": "Naples",
       "short_name": "Nap",
       "space_type": "Land",
-      "supply_center": "Italy"
+      "supply_center": {
+        "nation": "Italy"
+      }
     },
     {
       "long_name": "Holland",
       "short_name": "Hol",
       "space_type": "Land",
-      "supply_center": "Neutral"
+      "supply_center": {}
     },
     {
       "long_name": "Ruhr",
@@ -166,7 +184,9 @@
       "long_name": "Munich",
       "short_name": "Mun",
       "space_type": "Land",
-      "supply_center": "Germany"
+      "supply_center": {
+        "nation": "Germany"
+      }
     },
     {
       "long_name": "Tyrolia",
@@ -177,13 +197,17 @@
       "long_name": "Kiel",
       "short_name": "Kie",
       "space_type": "Land",
-      "supply_center": "Germany"
+      "supply_center": {
+        "nation": "Germany"
+      }
     },
     {
       "long_name": "Berlin",
       "short_name": "Ber",
       "space_type": "Land",
-      "supply_center": "Germany"
+      "supply_center": {
+        "nation": "Germany"
+      }
     },
     {
       "long_name": "Bohemia",
@@ -194,19 +218,19 @@
       "long_name": "Denmark",
       "short_name": "Den",
       "space_type": "Land",
-      "supply_center": "Neutral"
+      "supply_center": {}
     },
     {
       "long_name": "Norway",
       "short_name": "Nwy",
       "space_type": "Land",
-      "supply_center": "Neutral"
+      "supply_center": {}
     },
     {
       "long_name": "Sweden",
       "short_name": "Swe",
       "space_type": "Land",
-      "supply_center": "Neutral"
+      "supply_center": {}
     },
     {
       "long_name": "Finland",
@@ -217,13 +241,17 @@
       "long_name": "St. Petersburg",
       "short_name": "Stp",
       "space_type": "Land",
-      "supply_center": "Russia"
+      "supply_center": {
+        "nation": "Russia"
+      }
     },
     {
       "long_name": "Moscow",
       "short_name": "Mos",
       "space_type": "Land",
-      "supply_center": "Russia"
+      "supply_center": {
+        "nation": "Russia"
+      }
     },
     {
       "long_name": "Livonia",
@@ -244,7 +272,9 @@
       "long_name": "Warsaw",
       "short_name": "War",
       "space_type": "Land",
-      "supply_center": "Russia"
+      "supply_center": {
+        "nation": "Russia"
+      }
     },
     {
       "long_name": "Ukraine",
@@ -260,49 +290,57 @@
       "long_name": "Sevastopol",
       "short_name": "Sev",
       "space_type": "Land",
-      "supply_center": "Russia"
+      "supply_center": {
+        "nation": "Russia"
+      }
     },
     {
       "long_name": "Rumania",
       "short_name": "Rum",
       "space_type": "Land",
-      "supply_center": "Neutral"
+      "supply_center": {}
     },
     {
       "long_name": "Vienna",
       "short_name": "Vie",
       "space_type": "Land",
-      "supply_center": "Austria"
+      "supply_center": {
+        "nation": "Austria"
+      }
     },
     {
       "long_name": "Budapest",
       "short_name": "Bud",
       "space_type": "Land",
-      "supply_center": "Austria"
+      "supply_center": {
+        "nation": "Austria"
+      }
     },
     {
       "long_name": "Trieste",
       "short_name": "Tri",
       "space_type": "Land",
-      "supply_center": "Austria"
+      "supply_center": {
+        "nation": "Austria"
+      }
     },
     {
       "long_name": "Serbia",
       "short_name": "Ser",
       "space_type": "Land",
-      "supply_center": "Neutral"
+      "supply_center": {}
     },
     {
       "long_name": "Bulgaria",
       "short_name": "Bul",
       "space_type": "Land",
-      "supply_center": "Neutral"
+      "supply_center": {}
     },
     {
       "long_name": "Greece",
       "short_name": "Gre",
       "space_type": "Land",
-      "supply_center": "Neutral"
+      "supply_center": {}
     },
     {
       "long_name": "Albania",
@@ -313,19 +351,25 @@
       "long_name": "Constantinople",
       "short_name": "Con",
       "space_type": "Land",
-      "supply_center": "Turkey"
+      "supply_center": {
+        "nation": "Turkey"
+      }
     },
     {
       "long_name": "Smyrna",
       "short_name": "Smy",
       "space_type": "Land",
-      "supply_center": "Turkey"
+      "supply_center": {
+        "nation": "Turkey"
+      }
     },
     {
       "long_name": "Ankara",
       "short_name": "Ank",
       "space_type": "Land",
-      "supply_center": "Turkey"
+      "supply_center": {
+        "nation": "Turkey"
+      }
     },
     {
       "long_name": "Armenia",
